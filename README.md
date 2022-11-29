@@ -1,6 +1,6 @@
 # Pymaceuticals
  
-Background
+**Background**
 
 You've just joined Pymaceuticals, Inc., a new pharmaceutical company that specializes in anti-cancer medications. Recently, it began screening for potential treatments for squamous cell carcinoma (SCC), a commonly occurring form of skin cancer.
 
@@ -24,7 +24,7 @@ Calculate correlation and regression.
 
 Submit your final analysis.
 
-Prepare the Data
+**Prepare the Data**
 
 Run the provided package dependency and data imports, and then merge the mouse_metadata and study_results DataFrames into a single DataFrame.
 
@@ -32,7 +32,7 @@ Display the number of unique mice IDs in the data, and then check for any mouse 
 
 Display the updated number of unique mice IDs.
 
-Generate Summary Statistics
+**Generate Summary Statistics**
 
 Create a DataFrame of summary statistics. Remember, there is more than one method to produce the results you're after, so the method you use is less important than the result.
 
@@ -42,7 +42,7 @@ A row for each drug regimen. These regimen names should be contained in the inde
 
 A column for each of the following statistics: mean, median, variance, standard deviation, and SEM of the tumor volume.
 
-Create Bar Charts and Pie Charts
+**Create Bar Charts and Pie Charts**
 
 Generate two bar charts. Both charts should be identical and show the total number of time points for all mice tested for each drug regimen throughout the study.
 
@@ -56,7 +56,7 @@ Create the first pie chart with the Pandas DataFrame.plot() method.
 
 Create the second pie chart with Matplotlib's pyplot methods.
 
-Calculate Quartiles, Find Outliers, and Create a Box Plot
+**Calculate Quartiles, Find Outliers, and Create a Box Plot**
 
 Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Then, calculate the quartiles and IQR, and determine if there are any potential outliers across all four treatment regimens. Use the following substeps:
 
@@ -72,13 +72,13 @@ Using Matplotlib, generate a box plot that shows the distribution of the final t
 
 hint: All four box plots should be within the same figure. Use this Matplotlib documentation page Links to an external site.for help with changing the style of the outliers.
 
-Create a Line Plot and a Scatter Plot
+**Create a Line Plot and a Scatter Plot**
 
 Select a mouse that was treated with Capomulin, and generate a line plot of tumor volume versus time point for that mouse.
 
 Generate a scatter plot of tumor volume versus mouse weight for the Capomulin treatment regimen.
 
-Calculate Correlation and Regression
+**Calculate Correlation and Regression**
 
 Calculate the correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment.
 
